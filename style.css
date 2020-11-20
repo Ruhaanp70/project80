@@ -1,0 +1,18 @@
+.column{
+    float: left ;
+    width: 45%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+#showpara1{
+    border: 5px solid gray;
+}
+#showpara2{
+    border: 5px solid gray;
+}
+#showoutput{
+    font-size: large;
+}

@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <title>Join paragraphs</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <center>
+    <h1>Make paragraphs by pressing the button.</h1>
+  </center>
+  <div class="row">
+    <div class="column">
+
+      <span>1.</span>
+      <input type="text" placeholder="Input box 1" id="para1_input_1">
+      <br><br>
+      <span>2.</span>
+      <input type="text" placeholder="Input box 2" id="para1_input_2">
+      <br><br>
+      <span>3.</span>
+      <input type="text" placeholder="Input box 3" id="para1_input_3">
+      <br><br>
+      <span>4.</span>
+      <input type="text" placeholder="Input box 4" id="para1_input_4">
+      <br><br>
+      <span>5.</span>
+      <input type="text" placeholder="Input box 5" id="para1_input_5">
+      <br><br>
+      <span>6.</span>
+      <input type="text" placeholder="Input box 6" id="para1_input_6">
+      <br>
+      <br>
+      <button onclick="getpara1()">Get paragraph 1</button>
+      <br>
+      <br>
+      <div id="showpara1"></div>
+    </div>
+
+
+    <div class="column">
+      <span>1.</span>
+      <input type="text" placeholder="Input box 1" id="para2_input_1">
+      <br><br>
+      <span>2.</span>
+      <input type="text" placeholder="Input box 2" id="para2_input_2">
+      <br><br>
+      <span>3.</span>
+      <input type="text" placeholder="Input box 3" id="para2_input_3">
+      <br><br>
+      <span>4.</span>
+      <input type="text" placeholder="Input box 4" id="para2_input_4">
+      <br><br>
+      <span>5.</span>
+      <input type="text" placeholder="Input box 5" id="para2_input_5">
+      <br><br>
+      <span>6.</span>
+      <input type="text" placeholder="Input box 6" id="para2_input_6">
+      <br>
+      <br>
+      <button onclick="getpara2()">Get paragraph 2</button>
+      <br>
+      <br>
+      <div id="showpara2"></div>
+    </div>
+  </div>
+  <center> <button onclick="joinpara()">Join</button></center>
+  <div id="showoutput"></div>
+</body>
+
+</html>
